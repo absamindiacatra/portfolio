@@ -1,0 +1,163 @@
+classes:
+
+.h1 - .h6
+.lead
+.small,small
+.pre-scrollable
+
+.list-unstyled
+.container-fluid
+
+▐▬▬▬ Blockquote ▬▬▬▌
+.blockquote
+    .blockquote-footer
+
+
+▐▬▬▬ Image ▬▬▬▌
+.img-fluid
+.img-thumbnail
+
+
+▐▬▬▬ figure ▬▬▬▌
+.figure 
+    .figure-img
+    .figure-caption
+
+
+▐▬▬▬ button ▬▬▬▌
+.btn
+.btn.disabled
+.btn-link
+
+▬▬▬▐ btn-outline ▌▬▬▬
+.btn-outline-primary
+.btn-outline-secondary
+.btn-outline-success
+.btn-outline-info
+.btn-outline-warning
+.btn-outline-danger
+.btn-outline-light
+.btn-outline-dark
+
+
+▐▬▬▬ breadcrumb ▬▬▬▌
+.breadcrumb
+.breadcrumb-item
+.breadcrumb-item.active
+
+▐▬▬▬ border ▬▬▬▌
+.border
+.border-top
+.border-right
+.border-bottom
+.border-left
+
+▐▬▬▬ rounded ▬▬▬▌
+.rounded-sm
+.rounded-lg
+.rounded
+.rounded-circle
+.rounded-pill
+.rounded-top
+.rounded-right
+.rounded-bottom
+.rounded-left
+.rounded-0
+
+
+▐▬▬▬ display ▬▬▬▌
+.d-none
+.d-inline
+.d-block
+.d-inline-block
+.d-flex (flex-items are yours)
+.d-inline-flex
+
+
+▐▬▬▬ embed ▬▬▬▌
+.embed-responsive
+    .embed-responsive-item
+    .embed-responsive-21by9
+    .embed-responsive-16by9
+    .embed-responsive-4by3
+    .embed-responsive-1by1
+
+
+▐▬▬▬ position ▬▬▬▌
+.position-static
+.position-relative
+.position-absolute
+.position-fixed
+.position-sticky
+.fixed-top
+.fixed-bottom
+.sticky-top
+
+
+▐▬▬▬ width ▬▬▬▌
+.w-25
+.w-50
+.w-75
+.w-100
+.w-auto
+.mw-100
+ 
+▐▬▬▬ height ▬▬▬▌
+.h-25
+.h-50
+.h-75
+.h-100
+.h-auto
+.mh-100
+
+
+▐▬▬▬ text ▬▬▬▌
+.text-monospace
+.text-justify
+.text-wrap
+.text-nowrap
+.text-truncate
+.text-left
+.text-right
+.text-center
+.text-lowercase
+.text-uppercase
+.text-capitalize
+
+▐▬▬▬ text-color ▬▬▬▌ [WELL KNOWN COLOR]
+.text-white 
+.text-black 
+.text-yellow 
+.text-blue 
+.text-red 
+.text-orange 
+.text-gray 
+.text-pink 
+.text-purple 
+.text-magenta 
+.text-brown 
+.text-green 
+.text-cyan 
+▐▬▬▬ background-color ▬▬▬▌ [WELL KNOWN COLOR]
+.bg-white 
+.bg-black 
+.bg-yellow 
+.bg-blue 
+.bg-red 
+.bg-orange 
+.bg-gray 
+.bg-pink 
+.bg-purple 
+.bg-magenta 
+.bg-brown 
+.bg-green 
+.bg-cyan 
+  
+
+▐▬▬▬ font ▬▬▬▌
+.font-weight-light
+.font-weight-lighter
+.font-weight-normal
+.font-weight-bold
+.font-weight-bolder
+.font-italic

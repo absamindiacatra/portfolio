@@ -1,0 +1,296 @@
+/*
+▬▬▬▬▬▌ container ▐▬▬▬▬▬
+*/
+form {
+    display: block;
+}   /* item-1 */
+    .form {
+        position: relative;
+        margin-bottom: 1.5rem;
+    }
+    .form.outline {
+        position: relative;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }/* item-2 */
+            .form.outline input[type=date], 
+            .form.outline input[type=datetime-local], 
+            .form.outline input[type=email], 
+            .form.outline input[type=number], 
+            .form.outline input[type=password],
+            .form.outline input[type=search], 
+            .form.outline input[type=tel], 
+            .form.outline input[type=text], 
+            .form.outline input[type=time], 
+            .form.outline input[type=url], 
+            .form.outline textarea.md-textarea{
+            -webkit-transition: all .3s;
+            -o-transition: all .3s;
+            transition: all .3s;
+            outline: 0;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+            -webkit-border-radius: 4px;
+            border-radius: 4px;
+            background-color: transparent;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        .form.outline .form-control {
+            padding: .375rem .75rem;
+        }
+        .form input[type=text] {
+            -webkit-transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+            -o-transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+            transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+            outline: 0;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+            border: none;
+            -webkit-border-radius: 0;
+            border-radius: 0;
+            -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+            background-color: transparent;
+        }
+        .form .form-control {
+            margin: 0 0 .5rem;
+            -webkit-border-radius: 0;
+            border-radius: 0;
+            padding: .6rem 0 .4rem;
+            background-image: none;
+            background-color: transparent;
+            height: auto;
+        }
+        .form-control {
+            display: block;
+            width: 100%;
+            height: calc(1.5em + .75rem + 2px);
+            padding: .375rem .75rem;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #495057;
+            background-color: #fff;
+            background-clip: padding-box;
+            border-radius: .25rem;
+            transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        }
+        input {
+            overflow: visible;
+        }
+        input[type=password]:focus:not([readonly]),.form.outline input[type=search]:focus:not([readonly]), .form.outline input[type=tel]:focus:not([readonly]), .form.outline input[type=text]:focus:not([readonly]), .form.outline input[type=time]:focus:not([readonly]), .form.outline input[type=url]:focus:not([readonly]), .form.outline textarea.md-textarea:focus:not([readonly]) {
+           
+            -webkit-box-shadow: inset 0 0 0 1px #4285f4;
+            box-shadow: inset 0 0 0 1px #4285f4;
+        }
+        .form input[type=date]:focus:not([readonly]), 
+        .form input[type=datetime-local]:focus:not([readonly]), 
+        .form input[type=email]:focus:not([readonly]), 
+        .form input[type=number]:focus:not([readonly]), 
+        .form input[type=password]:focus:not([readonly]),
+        .form input[type=search]:focus:not([readonly]), 
+        .form input[type=tel]:focus:not([readonly]), 
+        .form input[type=text]:focus:not([readonly]), 
+        .form input[type=time]:focus:not([readonly]), 
+        .form input[type=url]:focus:not([readonly]), 
+        .form textarea.md-textarea:focus:not([readonly]) {
+            -webkit-box-shadow: 0 1px 0 0 #4285f4;
+            box-shadow: 0 1px 0 0 #4285f4;
+            
+        }
+        .form.outline input[type=date], 
+        .form.outline input[type=datetime-local], 
+        .form.outline input[type=email], 
+        .form.outline input[type=number], 
+        .form.outline input[type=password],
+        .form.outline input[type=search], 
+        .form.outline input[type=tel], 
+        .form.outline input[type=text], 
+        .form.outline input[type=time], 
+        .form.outline input[type=url], 
+        .form.outline textarea.md-textarea {
+            -webkit-transition: all .3s;
+            -o-transition: all .3s;
+            transition: all .3s;
+            outline: 0;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+            border: 1px solid rgb(163, 163, 163);
+            -webkit-border-radius: 4px;
+            border-radius: 4px;
+            background-color: transparent;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        .form.outline .form-control:focus {
+            -webkit-box-shadow: none;
+            box-shadow: none;
+            background: 0 0;
+        }
+        .form-control:focus {
+            color: #495057;
+            outline: 0;
+            box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+        }
+        .form.outline label {
+            font-size: 1rem;
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding-left: 10px;
+            -webkit-transition: color .2s ease-out,-webkit-transform .2s ease-out;
+            -o-transition: transform .2s ease-out,color .2s ease-out;
+            transition: transform .2s ease-out,color .2s ease-out;
+            -webkit-transform-origin: 0 100%;
+            -ms-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+            -webkit-transform: translateY(9px);
+            -ms-transform: translateY(9px);
+            transform: translateY(9px);
+            cursor: text;
+            color: #757575;
+        }
+        .form label {
+            position: absolute;
+            top: 0;
+            left: 0;
+            font-size: 1rem;
+            -webkit-transition: color .2s ease-out,-webkit-transform .2s ease-out;
+            -o-transition: transform .2s ease-out,color .2s ease-out;
+            transition: transform .2s ease-out,color .2s ease-out;
+            -webkit-transform-origin: 0 100%;
+            -ms-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+            -webkit-transform: translateY(12px);
+            -ms-transform: translateY(12px);
+            transform: translateY(12px);
+            cursor: text;
+            color: #000000;
+        }
+        label {
+            display: inline-block;
+            margin-bottom: .5rem;
+        }
+
+        .form.outline label.active {
+            -webkit-transform: translateY(-13px) scale(.8);
+            -ms-transform: translateY(-13px) scale(.8);
+            transform: translateY(-13px) scale(.8);
+            background: lightgoldenrodyellow;
+            font-weight: 500;
+            padding-right: 5px;
+            padding-left: 5px;
+            left: 8px;
+        } /* toggle it with js */
+
+        .form label.active {
+            -webkit-transform: translateY(-14px) scale(.8);
+            -ms-transform: translateY(-14px) scale(.8);
+            transform: translateY(-14px) scale(.8);
+        }/* toggle it with js */
+
+        .form input[type=email]+label:after, 
+        .form input[type=number]+label:after, 
+        .form input[type=password]+label:after,
+        .form input[type=search]+label:after, 
+        .form input[type=tel]+label:after, 
+        .form input[type=text]+label:after, 
+        .form input[type=time]+label:after, 
+        .form input[type=url]+label:after, 
+        .form textarea
+        .textarea+label:after {
+            content: "";
+            position: absolute;
+            top: 65px;
+            display: block;
+            opacity: 0;
+            -webkit-transition: .2s opacity ease-out,.2s color ease-out;
+            -o-transition: .2s opacity ease-out,.2s color ease-out;
+            transition: .2s opacity ease-out,.2s color ease-out;
+        }
+        /* item-3 textarea */
+            .form textarea.textarea {
+                overflow-y: hidden;
+                padding: 1.5rem 0;
+                resize: none;
+            }
+            textarea {
+                overflow: auto;
+                resize: vertical;
+            }
+            textarea {
+                margin: 0;
+                font-family: inherit;
+                font-size: inherit;
+                line-height: inherit;
+            }
+    /* BS4 */
+    
+
+@media (prefers-reduced-motion:reduce) {
+    .form-control {
+        transition: none
+    }
+}
+
+.form-control::-ms-expand {
+    background-color: transparent;
+    border: 0
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgba(0,123,255,.25)
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #6c757d;
+    opacity: 1
+}
+
+.form-control::-moz-placeholder {
+    color: #6c757d;
+    opacity: 1
+}
+
+.form-control:-ms-input-placeholder {
+    color: #6c757d;
+    opacity: 1
+}
+
+.form-control::-ms-input-placeholder {
+    color: #6c757d;
+    opacity: 1
+}
+
+.form-control::placeholder {
+    color: #6c757d;
+    opacity: 1
+}
+
+.form-control:disabled,.form-control[readonly] {
+    background-color: #e9ecef;
+    opacity: 1
+}
+
+select.form-control:focus::-ms-value {
+    color: #495057;
+    background-color: #fff
+}
+
+.form-control-file,.form-control-range {
+    display: block;
+    width: 100%
+}
+
+/* ▬▬▬▬▬▌ Others ▐▬▬▬▬▬ */
+.my-form {
+    background-color: lightgoldenrodyellow;
+}
+div.form.outline .form-control:focus {
+    border: 2px solid rgb(163, 163, 163);
+    
+}

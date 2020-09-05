@@ -1,0 +1,155 @@
+.accordion a:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+.space-top {
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.accord-btn {
+    display: -webkit-flex;
+    display: flex;
+    list-style: none;
+    font-size: 120%;
+    justify-content: space-evenly;
+    padding: 0 25px 0 25px;
+    margin: 0 auto;
+}
+@media (max-width: 1000px) {
+    .accord-btn {
+        font-size: 90%;
+    }
+}
+.accord-btn > li {
+    padding: 5px 15px;
+    text-align: center;
+    box-shadow: 3px 3px 5px rgb(78, 78, 78);
+    width: 25%;
+    margin-bottom: -2%;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 7px;
+    background-color: rgb(131, 131, 131);
+    cursor: pointer;
+    z-index: 1;
+}
+
+.accord-content div {
+    background-color: gray;
+    padding: 0px 5px;
+    margin: 0 50px;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+@supports (grid-area: auto) {
+    .accord-content {
+        display: -moz-grid;
+        display: -ms-grid;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0;
+    }
+    .accord-content * {
+        grid-column: 1;
+        grid-row: 1;
+        margin-top: 34px;
+    }
+}
+
+
+.paganay, .ikadowa, .ikatlo {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+
+.close {
+    height: auto;
+    max-height: 0;
+    overflow-y: hidden;
+} 
+.open {
+    height: 100%;
+    max-height: 100%;
+    box-shadow: 0 5px 5px darkslategrey;
+    border: 2px solid rgb(255, 255, 255);
+    transition: max-height 1s ease-out;
+}
+.accord-content dt {
+    font-size: 120%;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.accord-content dd {
+    margin-left: 10px;
+    padding-left: 25px;
+    font-size: 100%;
+    color: white;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased; 
+}
+.accordko { 
+    height: 67vh;
+    margin: 0 auto;
+    line-height: normal;
+} 
+@media (max-width: 550px) {
+    .open {
+        height: 100%;
+        max-height: 100%;
+        box-shadow: 0 5px 5px darkslategrey;
+        border: 2px solid rgb(255, 255, 255);
+        transition: max-height 1s ease-out;
+    }
+    .accordko { 
+        height: 95vh;
+        margin: 0 auto;
+        line-height: normal;
+    }
+    .accord-content dt {
+        font-size: 110%;
+        padding-top: 10px;
+        margin-top: 10px;
+    }
+    .accord-content dd {
+        margin-left: 10px;
+        padding-left: 25px;
+        font-size: 110%; 
+    }
+}
+
+.accord-content dt, .accord-content dd {
+    margin-top: 5px;
+    padding-top: 3px;
+}
+
+
+.pattern {
+    width: 100%;
+    height: 60vh;
+    background-size: 100%;
+    z-index: 1;	
+    overflow: hidden;
+    display: block;
+    position: relative;
+}
+.pattern:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    content: "";
+    opacity: .6;
+    background: white;
+    background: url("../images/pattern.png");
+}
+.parallax {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    z-index: 1;
+}
